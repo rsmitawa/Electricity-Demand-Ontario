@@ -1,33 +1,34 @@
-# Data Scientist - Code Challenge
+## Project Setup and Execution Guide
 
-We need to predict the demand for the next 24 hours by utilizing past electricity demand data points, humidity, temperature, dew point, and other drivers like weekdays, holidays, and etc. 
+### Project Overview
+This project predicts electricity demand for the next 24 hours using historical data and machine learning. It involves two main Jupyter Notebook files: `main.ipynb` and `machine_learning.ipynb`.
 
-#### Inputs: 
+### Environment Setup
+1. **Clone the Repository:**
+   ```bash
+   git clone https://github.com/rsmitawa/Electricity-Demand-Ontario.git
+   cd Electricity-Demand-Ontario
+   ```
 
-- sample data.csv is attached. 
+2. **Install XGBoost (if needed):**
+   ```bash
+   pip install xgboost
+   ```
 
+### Running the Project
+1. **Run `main.ipynb`:**
+   - Open `main.ipynb` in Jupyter Notebook:
+     ```bash
+     jupyter notebook main.ipynb
+     ```
 
-### Output: 
+2. **Run `machine_learning.ipynb`:**
+   - Open `machine_learning.ipynb` in Jupyter Notebook:
+     ```bash
+     jupyter notebook machine_learning.ipynb
+     ```
 
-A 24-hour demand forecast for a sample day in July or August. 
-
-  
-## General Requirements
-- The data set may contain outliers and abnormal values.
-- This is everything you need to know about having a better development experience. 
-- Write an instruction to run the project.
-- Don’t commit the .vscode or .idea directory.
-
-### Evaluation:
-
-- The work will be evaluated based on the accuracy of the electricity demand forecast, the clarity of the code and documentation, and the overall effectiveness of the solution.
-- The acceptable error rate must be less than 5% (AE < 500 MW, or accuracy more than 95%)
-  
-### Deliverables for the Code Challenge
-
-- Detailed Report: Provide a comprehensive report covering model selection, fine-tuning processes, evaluation metrics, and results.
-- Code and Documentation: Include all code and documentation necessary to reproduce the experiments and results.
-
-### Submission
-- Please submit a GitHub link with your work and fork the repository for collaboration.
-- You have 1 week to send the challenge!
+### Data Files
+- All data files are located in the `data` folder within the project directory:
+  - `Sample Dataset.csv`
+  - `electricity_data_pre_ml.pkl`
