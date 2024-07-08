@@ -10,7 +10,7 @@ This project predicts electricity demand for the next 24 hours using historical 
    cd Electricity-Demand-Ontario
    ```
    
-If you encounter issues with XGBoost installation due to Apple M3 chip, install XGBoost manually:
+If you encounter issues with XGBoost installation due to Apple M3 chip, install XGBoost manually  
 2. **Install XGBoost (if needed):**
    ```bash
    pip install xgboost
