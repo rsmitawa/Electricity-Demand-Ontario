@@ -30,3 +30,5 @@ If you encounter issues with XGBoost installation due to Apple M3 chip, install 
 - All data files are located in the `data` folder within the project directory:
   - `Sample Dataset.csv`
   - `electricity_data_pre_ml.pkl`
+    
+**Note:** For optimal viewing and functionality, please download this repo and open it in Jupyter Notebook. Some internal links may not work correctly on GitHub due to the specific rules of GitHub Flavored Markdown.
