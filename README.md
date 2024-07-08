@@ -16,8 +16,8 @@ If you encounter issues with XGBoost installation due to Apple M3 chip, install 
    pip install xgboost
    ```
 
-### Running the Project
-    ```bash
+### Running the Project  
+   ```bash
    jupyter lab
    ```
 1. **Run `main.ipynb`:**
