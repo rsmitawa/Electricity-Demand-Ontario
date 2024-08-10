@@ -1,0 +1,39 @@
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# macOS system files
+.DS_Store
+
+# Python bytecode files
+__pycache__/
+*.py[cod]
+
+# Environment files
+.env
+.venv/
+env/
+venv/
+
+# IDE/editor specific files
+.vscode/
+.idea/
+
+# Jupyter Notebook specific files
+*.ipynb_checkpoints/
+*.nbconvert.py
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Data files (if not needed)
+*.csv
+*.xlsx
+*.json
+
+# GitHub workspace
+*.git/
+
+# Others
+*.pkl
+*.pickle
